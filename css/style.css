@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    padding: 100px 0;
+}
+
+/* header section css coding starting here */
+.header_wrapper .navbar{
+    background-color: #daac00;
+}
+.header_wrapper .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    padding-left: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.header_wrapper #searchbox{
+    background-color: #fcc302;
+    color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    position: relative;
+    left: 50px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+.header_wrapper #searchbox::placeholder{
+    color: #fff;
+}
+.header_wrapper #searchbtn{
+    position: relative;
+    z-index: 10;
+    background-color: #00bec9;
+    color: #fff;
+    border: 0px;
+    border: 0px;
+    padding: 0 1.2rem;
+}
+/* header section css coding end here */
+
+/* banner section css coding starting here */
+.banner_wrapper{
+    margin-top: 80px;
+    background-color: #fcc302;
+}
+.banner_wrapper #bannerText{
+    padding-top: 80px;
+}
+.banner_wrapper #bannerText h1{
+    color: #fff;
+    font-size: 55px;
+}
+.banner_wrapper #bannerText p{
+    padding: 15px 0;
+    font-size: 22px;
+    color: #fff;
+}
+.banner_wrapper #banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: #fff;
+    padding: 10px 20px;
+}
+.banner_wrapper #banner-btn-2{
+    color: #fff;
+    border: 2px solid #fff;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+/* banner section css coding end here */
+
+/* about section css coding starting here */
+.about_wrapper p{
+    font-size: 18px;
+    padding: 15px 0;
+}
+.about_wrapper #about-btn{
+    background-color: #fcc302;
+    color: #fff;
+    border: 4px solid #fcc302;
+}
+/* about section css coding end here */
+
+/* service section css coding starting here */
+.service_wrapper{
+    background-color: #fcc302;
+}
+.service_wrapper .headlines h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.service_wrapper .headlines p{
+    font-size: 1.5rem;
+}
+.service_wrapper .section_bottom h3{
+    margin-top: 2.5rem;
+}
+.service_wrapper .section_bottom p{
+    width: 65%;
+    margin: 0 auto;
+}
+/* service section css coding end here */
+
+/* anotherAbout section css coding starting here */
+.anotherAbout_wrapper p{
+    font-size: 17px;
+    padding: 15px 0;
+    width: 75%;
+    margin-left: auto;
+}
+.anotherAbout_wrapper #about-btn{
+    background-color: #fcc302;
+    color: #fff;
+    border: 4px solid #fcc302;
+}
+/* anotherAbout section css coding end here */
+
+/* pricing section css coding starting here */
+.pricing_wrapper{
+    background-color: #fcc302;
+}
+.pricing_wrapper .headlines h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.pricing_wrapper .headlines p{
+    font-size: 1.5rem;
+}
+.pricing_wrapper .section_bottom button{
+    background-color: #00bec9;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 1px solid #00bec9;
+}
+/* pricing section css coding end here */
+
+/* team section css coding starting here */
+.team_wrapper .headlines h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.team_wrapper .headlines p{
+    font-size: 1.5rem;
+}
+.team_wrapper .section_bottom h5{
+    font-weight: 700;
+}
+.team_wrapper .section_bottom p{
+    font-weight: 500;
+}
+.team_wrapper .section_bottom .social-icons i{
+    background-color: #daac00;
+    cursor: pointer;
+    margin-left: 8px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* team section css coding end here */
+
+/* counter section css coding starting here */
+.counter_wrapper{
+    background-image: url(../images/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    width: 100%;
+}
+.counter_wrapper i{
+    font-size: 65px;
+    margin-bottom: 1.5rem;
+}
+/* counter section css coding end here */
+
+/* blog section css coding starting here */
+.blog_wrapper .headlines h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.blog_wrapper .headlines p{
+    font-size: 1.5rem;
+}
+.blog_wrapper img{
+    width: 100%;
+}
+.blog_wrapper .article-details{
+    padding: 0 30px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+.blog_wrapper .article-details .article-title{
+    font-weight: 600;
+    padding-top: 1.6rem;
+}
+.blog_wrapper .article-date{
+    color: #00bec9;
+}
+.blog_wrapper .article-btn a{
+    color: #00bec9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+/* blog section css coding end here */
+
+/* footer section css coding starting here */
+footer{
+    padding: 100px 0;
+    background-color: #343434;
+}
+footer h4{
+    font-weight: 600;
+}
+footer ul li:nth-child(1){
+    margin-top: 25px;
+}
+footer ul li{
+    margin-top: 8px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer form{
+    margin: 20px 0 40px 0;
+}
+footer form input{
+    background-color: #fcc302;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    left: 5px;
+}
+#footer-search-submit{
+    background-color: #00bec9;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    padding: 10px 30px;
+}
+footer .social_icon{
+    background-color: #fff;
+    color: #343434;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* footer section css coding end here */
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    /* banner section code */
+    .banner_wrapper #bannerText{
+        padding-top: 40px;
+    }
+    .banner_wrapper #bannerText h1{
+        font-size: 45px;
+    }
+    .banner_wrapper #bannerText p{
+        font-size: 20px;
+    }
+    /* about section code */
+    .about_wrapper p{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    /* anotherAbout section code */
+    .anotherAbout_wrapper p{
+        font-size: 18px;
+        padding: 10px 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width:991px) {
+    section{
+        padding: 50px 0;
+    }
+    /* header section code */
+    .header_wrapper .navbar .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-right: 0;
+    }
+    .header_wrapper #searchbox{
+        width: 75%;
+    }
+    /* banner section code */
+    .banner_wrapper #bannerText h1{
+        font-size: 35px;
+    }
+    .banner_wrapper #bannerText p{
+        padding: 8px 0;
+        font-size: 16px;
+    }
+
+    /* about section code */
+    .about_wrapper h1{
+        font-size: 30px;
+    }
+    .about_wrapper p{
+        font-size: 14px;
+        padding: 6px 0;
+    }
+
+    /* service section code */
+    .service_wrapper .headlines h1{
+        font-size: 3.5rem;
+    }
+    .service_wrapper .headlines p{
+        font-size: 1.2rem;
+    }
+    .service_wrapper .section_bottom p{
+        width: 75%;
+    }
+
+    /* anotherAbout section code */
+    .anotherAbout_wrapper h1{
+        font-size: 30px;
+    }
+    .anotherAbout_wrapper p{
+        font-size: 14px;
+        padding: 6px 0;
+    }
+
+    /* pricing section code */
+    .pricing_wrapper .headlines h1{
+        font-size: 3.5rem;
+    }
+    .pricing_wrapper .headlines p{
+        font-size: 1.2rem;
+    }
+
+    /* team section code */
+    .team_wrapper .headlines h1{
+        font-size: 3.5rem;
+    }
+    .team_wrapper .headlines p{
+        font-size: 1.2rem;
+    }
+
+    /* counter section code */
+    .counter_wrapper{
+        padding: 100px 0;
+    }
+
+    /* blog section code */
+    .blog_wrapper .headlines h1{
+        font-size: 3.5rem;
+    }
+    .blog_wrapper .headlines p{
+        font-size: 1.2rem;
+    }
+
+    /* footer section code */
+    footer{
+        padding: 80px 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    /* banner section code */
+    .banner_wrapper #bannerText{
+        padding-top: 30px;
+    }
+    .banner_wrapper #bannerText{
+        text-align: center;
+    }
+    .banner_wrapper img{
+        height: 100%;
+        max-height: 400px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and low) */
+@media (max-width: 576px) {
+    /* navbar */
+    .header_wrapper .navbar .navbar-brand img{
+        width: 100%;
+        max-width: 150px;
+    }
+    /* banner section coding */
+    .banner_wrapper #bannerText{
+        padding-top: 0px;
+    }
+    .banner_wrapper #banner-btn-1{
+        font-size: 16px;
+        padding: 8px 14px;
+        margin-bottom: 10px;
+    }
+    .banner_wrapper #banner-btn-2{
+        margin-left: 10px;
+        font-size: 16px;
+        padding: 8px 14px;
+        margin-bottom: 10px;
+    }
+    .banner_wrapper img{
+        height: 100%;
+        max-height: 300px;
+    }
+
+    /* service section code */
+    .service_wrapper .headlines h1{
+        font-size: 2.5rem;
+    }
+    .service_wrapper .headlines p{
+        font-size: 1rem;
+    }
+    .service_wrapper .section_bottom h3{
+        margin-top: 1.5rem;
+    }
+    .service_wrapper .section_bottom p{
+        width: 90%;
+    }
+
+    /* anotherAbout section code */
+    .anotherAbout_wrapper p{
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    /* pricing section code */
+    .pricing_wrapper .headlines h1{
+        font-size: 2.5rem;
+    }
+    .pricing_wrapper .headlines p{
+        font-size: 1rem;
+    }
+
+    /* team section code */
+    .team_wrapper .headlines h1{
+        font-size: 2.5rem;
+    }
+    .team_wrapper .headlines p{
+        font-size: 1rem;
+    }
+
+    /* counter section code */
+    .counter_wrapper{
+        padding: 70px 0;
+    }
+
+    /* blog section code */
+    .blog_wrapper .headlines h1{
+        font-size: 2.5rem;
+    }
+    .blog_wrapper .headlines p{
+        font-size: 1rem;
+    }
+
+    /* footer section code */
+    footer{
+        padding: 50px 0;
+    }
+    footer form input{
+        width: 100%;
+        max-width: 160px;
+    }
+    #footer-search-submit{
+        padding: 10px 12px;
+    }
+}
